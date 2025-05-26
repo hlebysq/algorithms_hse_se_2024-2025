@@ -1,0 +1,217 @@
+Data Type,Data Size,Algorithm,Time (s),Comparisons
+random,100,QuickSort,4.28e-05,6634
+random,100,MergeSort(LCP),3.62e-05,1268
+random,100,MSD Radix,0.0003345,178
+random,100,Hybrid MSD Radix,2.77e-05,352
+random,100,std::sort,1.4e-05,774
+random,100,std::stable_sort,1.62e-05,612
+random,200,QuickSort,7.46e-05,11825
+random,200,MergeSort(LCP),7.92e-05,2993
+random,200,MSD Radix,0.0005938,389
+random,200,Hybrid MSD Radix,5.61e-05,1123
+random,200,std::sort,3.23e-05,1837
+random,200,std::stable_sort,3.17e-05,1396
+random,300,QuickSort,0.0001201,17845
+random,300,MergeSort(LCP),0.0001319,4999
+random,300,MSD Radix,0.000885,613
+random,300,Hybrid MSD Radix,6.86e-05,2367
+random,300,std::sort,4.5e-05,2941
+random,300,std::stable_sort,5.35e-05,2264
+random,400,QuickSort,0.0001756,26954
+random,400,MergeSort(LCP),0.0001938,7035
+random,400,MSD Radix,0.0010463,837
+random,400,Hybrid MSD Radix,8.34e-05,3635
+random,400,std::sort,6.09e-05,4221
+random,400,std::stable_sort,7.28e-05,3173
+random,500,QuickSort,0.0002198,33049
+random,500,MergeSort(LCP),0.000227,9249
+random,500,MSD Radix,0.0011424,1048
+random,500,Hybrid MSD Radix,0.0001115,5152
+random,500,std::sort,7.85e-05,5407
+random,500,std::stable_sort,9.22e-05,4375
+random,1000,QuickSort,0.0004467,62631
+random,1000,MergeSort(LCP),0.0005042,21497
+random,1000,MSD Radix,0.0019322,2184
+random,1000,Hybrid MSD Radix,0.0002574,17168
+random,1000,std::sort,0.0002613,12238
+random,1000,std::stable_sort,0.0002195,9740
+random,1500,QuickSort,0.0007332,102461
+random,1500,MergeSort(LCP),0.0008923,34853
+random,1500,MSD Radix,0.0029723,3380
+random,1500,Hybrid MSD Radix,0.0005302,36312
+random,1500,std::sort,0.0003335,18470
+random,1500,std::stable_sort,0.0004429,14908
+random,2000,QuickSort,0.0010263,141947
+random,2000,MergeSort(LCP),0.0010966,49125
+random,2000,MSD Radix,0.0045017,4621
+random,2000,Hybrid MSD Radix,0.0005526,61125
+random,2000,std::sort,0.000382,26262
+random,2000,std::stable_sort,0.0004293,21456
+random,3000,QuickSort,0.001684,229957
+random,3000,MergeSort(LCP),0.0017154,78825
+random,3000,MSD Radix,0.0080245,7279
+random,3000,Hybrid MSD Radix,0.0011635,132890
+random,3000,std::sort,0.0006082,41850
+random,3000,std::stable_sort,0.0006852,32822
+reverse_sorted,100,QuickSort,1.06e-05,1145
+reverse_sorted,100,MergeSort(LCP),3.73e-05,1208
+reverse_sorted,100,MSD Radix,0.0002571,237
+reverse_sorted,100,Hybrid MSD Radix,6.05e-05,7210
+reverse_sorted,100,std::sort,9.3e-06,526
+reverse_sorted,100,std::stable_sort,1.16e-05,266
+reverse_sorted,200,QuickSort,2.26e-05,3063
+reverse_sorted,200,MergeSort(LCP),7.67e-05,2642
+reverse_sorted,200,MSD Radix,0.0004691,483
+reverse_sorted,200,Hybrid MSD Radix,0.000112,15033
+reverse_sorted,200,std::sort,1.82e-05,1242
+reverse_sorted,200,std::stable_sort,2.11e-05,632
+reverse_sorted,300,QuickSort,3.95e-05,5391
+reverse_sorted,300,MergeSort(LCP),0.0001235,4154
+reverse_sorted,300,MSD Radix,0.0007474,736
+reverse_sorted,300,Hybrid MSD Radix,0.0001782,24495
+reverse_sorted,300,std::sort,3.05e-05,2174
+reverse_sorted,300,std::stable_sort,3.52e-05,1012
+reverse_sorted,400,QuickSort,5.78e-05,7738
+reverse_sorted,400,MergeSort(LCP),0.000165,5746
+reverse_sorted,400,MSD Radix,0.0010096,981
+reverse_sorted,400,Hybrid MSD Radix,0.0002325,32643
+reverse_sorted,400,std::sort,3.87e-05,2874
+reverse_sorted,400,std::stable_sort,4.77e-05,1462
+reverse_sorted,500,QuickSort,7.26e-05,9767
+reverse_sorted,500,MergeSort(LCP),0.0002109,7447
+reverse_sorted,500,MSD Radix,0.0012263,1216
+reverse_sorted,500,Hybrid MSD Radix,0.0002831,40654
+reverse_sorted,500,std::sort,4.59e-05,3574
+reverse_sorted,500,std::stable_sort,5.89e-05,1898
+reverse_sorted,1000,QuickSort,0.0001785,23589
+reverse_sorted,1000,MergeSort(LCP),0.0004527,15962
+reverse_sorted,1000,MSD Radix,0.0025153,2429
+reverse_sorted,1000,Hybrid MSD Radix,0.0005639,80604
+reverse_sorted,1000,std::sort,0.0001028,8138
+reverse_sorted,1000,std::stable_sort,0.0001308,4292
+reverse_sorted,1500,QuickSort,0.0003268,41901
+reverse_sorted,1500,MergeSort(LCP),0.0007155,24281
+reverse_sorted,1500,MSD Radix,0.0037669,3652
+reverse_sorted,1500,Hybrid MSD Radix,0.0009338,122553
+reverse_sorted,1500,std::sort,0.0001712,13766
+reverse_sorted,1500,std::stable_sort,0.0002139,6846
+reverse_sorted,2000,QuickSort,0.0004218,54965
+reverse_sorted,2000,MergeSort(LCP),0.0010884,33977
+reverse_sorted,2000,MSD Radix,0.0049314,4876
+reverse_sorted,2000,Hybrid MSD Radix,0.0011013,162791
+reverse_sorted,2000,std::sort,0.0002258,18266
+reverse_sorted,2000,std::stable_sort,0.0002734,9580
+reverse_sorted,3000,QuickSort,0.0007372,94645
+reverse_sorted,3000,MergeSort(LCP),0.0017257,51504
+reverse_sorted,3000,MSD Radix,0.0075112,7279
+reverse_sorted,3000,Hybrid MSD Radix,0.0018722,241997
+reverse_sorted,3000,std::sort,0.000379,30522
+reverse_sorted,3000,std::stable_sort,0.0005949,15192
+almost_sorted,100,QuickSort,7.2e-06,963
+almost_sorted,100,MergeSort(LCP),2.5e-06,316
+almost_sorted,100,MSD Radix,0.0002742,241
+almost_sorted,100,Hybrid MSD Radix,1.9e-05,509
+almost_sorted,100,std::sort,9.6e-06,629
+almost_sorted,100,std::stable_sort,1.05e-05,386
+almost_sorted,200,QuickSort,1.98e-05,2544
+almost_sorted,200,MergeSort(LCP),1.85e-05,1056
+almost_sorted,200,MSD Radix,0.00049,482
+almost_sorted,200,Hybrid MSD Radix,2.84e-05,1014
+almost_sorted,200,std::sort,2.55e-05,1911
+almost_sorted,200,std::stable_sort,2.11e-05,974
+almost_sorted,300,QuickSort,3.72e-05,5050
+almost_sorted,300,MergeSort(LCP),3.56e-05,2297
+almost_sorted,300,MSD Radix,0.0006587,708
+almost_sorted,300,Hybrid MSD Radix,5.12e-05,1510
+almost_sorted,300,std::sort,7.39e-05,3917
+almost_sorted,300,std::stable_sort,3.99e-05,1770
+almost_sorted,400,QuickSort,6.03e-05,7837
+almost_sorted,400,MergeSort(LCP),5.44e-05,3440
+almost_sorted,400,MSD Radix,0.0009888,960
+almost_sorted,400,Hybrid MSD Radix,4.91e-05,2022
+almost_sorted,400,std::sort,8.46e-05,5767
+almost_sorted,400,std::stable_sort,5.41e-05,2454
+almost_sorted,500,QuickSort,8.91e-05,11853
+almost_sorted,500,MergeSort(LCP),8.41e-05,4983
+almost_sorted,500,MSD Radix,0.0011595,1187
+almost_sorted,500,Hybrid MSD Radix,6.32e-05,2523
+almost_sorted,500,std::sort,0.0001173,7680
+almost_sorted,500,std::stable_sort,6.92e-05,3315
+almost_sorted,1000,QuickSort,0.0002713,37689
+almost_sorted,1000,MergeSort(LCP),0.0002227,12469
+almost_sorted,1000,MSD Radix,0.0022752,2376
+almost_sorted,1000,Hybrid MSD Radix,0.0001382,5439
+almost_sorted,1000,std::sort,0.0002607,18264
+almost_sorted,1000,std::stable_sort,0.000163,7865
+almost_sorted,1500,QuickSort,0.0004025,53976
+almost_sorted,1500,MergeSort(LCP),0.000389,20717
+almost_sorted,1500,MSD Radix,0.0035871,3604
+almost_sorted,1500,Hybrid MSD Radix,0.0001853,8986
+almost_sorted,1500,std::sort,0.0004227,30867
+almost_sorted,1500,std::stable_sort,0.0002389,12051
+almost_sorted,2000,QuickSort,0.0005869,78119
+almost_sorted,2000,MergeSort(LCP),0.0005416,29132
+almost_sorted,2000,MSD Radix,0.004862,4832
+almost_sorted,2000,Hybrid MSD Radix,0.000218,12488
+almost_sorted,2000,std::sort,0.0004859,37064
+almost_sorted,2000,std::stable_sort,0.0003441,17461
+almost_sorted,3000,QuickSort,0.0007157,90066
+almost_sorted,3000,MergeSort(LCP),0.0008365,43669
+almost_sorted,3000,MSD Radix,0.0073275,7279
+almost_sorted,3000,Hybrid MSD Radix,0.0003512,20311
+almost_sorted,3000,std::sort,0.0004659,41187
+almost_sorted,3000,std::stable_sort,0.0005006,25379
+common_prefix,100,QuickSort,3.62e-05,5413
+common_prefix,100,MergeSort(LCP),3.67e-05,2477
+common_prefix,100,MSD Radix,0.0006474,616
+common_prefix,100,Hybrid MSD Radix,3.46e-05,2292
+common_prefix,100,std::sort,1.28e-05,788
+common_prefix,100,std::stable_sort,1.48e-05,527
+common_prefix,200,QuickSort,8.11e-05,12161
+common_prefix,200,MergeSort(LCP),8.1e-05,5460
+common_prefix,200,MSD Radix,0.0012755,1234
+common_prefix,200,Hybrid MSD Radix,6.53e-05,5893
+common_prefix,200,std::sort,2.83e-05,1794
+common_prefix,200,std::stable_sort,2.87e-05,1254
+common_prefix,300,QuickSort,0.0001532,22904
+common_prefix,300,MergeSort(LCP),0.0001292,8266
+common_prefix,300,MSD Radix,0.0020969,1846
+common_prefix,300,Hybrid MSD Radix,9.18e-05,8722
+common_prefix,300,std::sort,4.74e-05,3256
+common_prefix,300,std::stable_sort,4.78e-05,2056
+common_prefix,400,QuickSort,0.0002774,24472
+common_prefix,400,MergeSort(LCP),0.0001737,11593
+common_prefix,400,MSD Radix,0.0024254,2456
+common_prefix,400,Hybrid MSD Radix,0.0001175,11571
+common_prefix,400,std::sort,6.29e-05,4421
+common_prefix,400,std::stable_sort,6.4e-05,2933
+common_prefix,500,QuickSort,0.0002549,38074
+common_prefix,500,MergeSort(LCP),0.0002224,14631
+common_prefix,500,MSD Radix,0.0029743,3068
+common_prefix,500,Hybrid MSD Radix,0.0001464,14905
+common_prefix,500,std::sort,7.89e-05,5415
+common_prefix,500,std::stable_sort,7.96e-05,3964
+common_prefix,1000,QuickSort,0.0005467,77949
+common_prefix,1000,MergeSort(LCP),0.0004848,31440
+common_prefix,1000,MSD Radix,0.005553,6116
+common_prefix,1000,Hybrid MSD Radix,0.0004164,37402
+common_prefix,1000,std::sort,0.0002195,13073
+common_prefix,1000,std::stable_sort,0.0001901,9022
+common_prefix,1500,QuickSort,0.0008719,124309
+common_prefix,1500,MergeSort(LCP),0.0007715,49123
+common_prefix,1500,MSD Radix,0.008222,9182
+common_prefix,1500,Hybrid MSD Radix,0.0005412,62057
+common_prefix,1500,std::sort,0.0003407,19601
+common_prefix,1500,std::stable_sort,0.0002866,13654
+common_prefix,2000,QuickSort,0.0011825,162502
+common_prefix,2000,MergeSort(LCP),0.0010817,67661
+common_prefix,2000,MSD Radix,0.0112819,12234
+common_prefix,2000,Hybrid MSD Radix,0.0007464,97767
+common_prefix,2000,std::sort,0.0003585,25482
+common_prefix,2000,std::stable_sort,0.0003877,19921
+common_prefix,3000,QuickSort,0.0018418,258252
+common_prefix,3000,MergeSort(LCP),0.0016453,105822
+common_prefix,3000,MSD Radix,0.0173301,18350
+common_prefix,3000,Hybrid MSD Radix,0.0016313,148754
+common_prefix,3000,std::sort,0.0005798,43092
+common_prefix,3000,std::stable_sort,0.0006002,30397
